@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.sec2{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+.ngu{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 100px;
+}
+.sec3{
+	text-align: center;
+	padding-top: 50px;
+	height: 50vh;
+}
+.card{
+	background-color:#F6F6F6;
+	width: 25%;
+	padding: 60px 10px;
+}
+.card:hover{
+	background-color: coral;
+	color: white;
+	transition: 0.3s;
+}
+.sec4{
+	margin: 0 auto;
+	text-align: center;
+	background-color: #FFFAF8;
+}
+.cu{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+    margin: 0 100px;
+}
+.sec4 img{
+	width: 100%;
+}
+.cardto{
+	text-align: left;
+	background-color: white;
+	padding: 20px;
+}
+.cardnho{
+	display: flex;
+	justify-content: space-between;
+}
+.cu2{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0 100px;
+	margin-top: 30px;
+}
+.sec4 input{
+	background-color: transparent;
+	padding: 10px;
+	border-radius: 4px;
+}
+.sec4 input:hover{
+	background-color: coral;
+	color: white;
+}
+.sec4 h1 {
+	margin: 10px 0px;
+}
